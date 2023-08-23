@@ -1,0 +1,94 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicit definition of binary formats
+*.doc binary
+*.docx binary
+*.gif binary
+*.idx binary
+*.jar binary
+*.jpg binary
+*.knime binary
+*.knwf binary
+*.mng binary
+*.odt binary
+*.odp binary
+*.otf binary
+*.pack binary
+*.pdf binary
+*.png binary
+*.pps binary
+*.ppt binary
+*.pptx binary
+*.psd binary
+*.svg binary
+*.swf binary
+*.tif binary
+*.ttf binary
+*.woff binary
+*.xls binary
+*.xlsm binary
+*.xlsx binary
+*.zip binary
+
+# Specific files that are DOS/Windows
+*.sln text eol=crlf
+
+# Remaining files are text and should be lf both sides
+*.axlsx text eol=lf
+*.bib text eol=lf
+*.bibtex text eol=lf
+*.builder text eol=lf
+*.cache text eol=lf
+*.cff text eol=lf
+*.cfg text eol=lf
+*.conf text eol=lf
+*.config text eol=lf
+*.css text eol=lf
+*.csv text eol=lf
+*.cwl text eol=lf
+*.dat text eol=lf
+*.dockerignore text eol=lf
+*.dolphinview text eol=lf
+*.env text eol=lf
+*.eot text eol=lf
+*.erb text eol=lf
+*.fodp text eol=lf
+*.fodt text eol=lf
+*.ga text eol=lf
+*.hbs text eol=lf
+*.hidden text eol=lf
+*.html text eol=lf
+*.ipynb text eol=lf
+*.jbuilder text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.jsonld text eol=lf
+*.less text eol=lf
+*.list text eol=lf
+*.lock text eol=lf
+*.md text eol=lf
+*.meta text eol=lf
+*.owl text eol=lf
+*.properties text eol=lf
+*.py text eol=lf
+*.rake text eol=lf
+*.rb text eol=lf
+*.rdf text eol=lf
+*.rspec text eol=lf
+*.rtf text eol=lf
+*.ru text eol=lf
+*.ruby-version text eol=lf
+*.sample text eol=lf
+*.scss text eol=lf
+*.sh text eol=lf
+*.template text eol=lf
+*.test-yml text eol=lf
+*.theme text eol=lf
+*.tsv text eol=lf
+*.txt text eol=lf
+*.wsdl text eol=lf
+*.xgmml text eol=lf
+*.xml text eol=lf
+*.xsd text eol=lf
+*.yml text eol=lf
